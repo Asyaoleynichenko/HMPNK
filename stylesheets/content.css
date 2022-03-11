@@ -1,10 +1,16 @@
 body{
-  overflow-x: hidden;
+  overflow hidden;
   background-color: #FF009B;
 }
 .head{
   height: 10vw;
   overflow-x: hidden;
+}
+.app{
+  position: absolute;
+  top: 45vw;
+  left: 39vw;
+  height: 30vw;
 }
 .w1{
   position: absolute;
@@ -121,4 +127,3 @@ body{
 }
 #w1:active {
   cursor: grabbing;
-}
