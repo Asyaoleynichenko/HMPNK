@@ -79,6 +79,12 @@ body{
   left: 30vw;
   top: 23vw;
 }
+.p1{
+  position: absolute;
+  height: 50vw;
+  left: 33vw;
+  top: 25vw;
+}
 .w5{
   position: absolute;
   height: 21vw;

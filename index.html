@@ -35,27 +35,15 @@
       $( "#w9" ).draggable();
     } );
     </script>
-    <script language="javascript">
-        function changeImage() {
-
-            if (document.getElementById("imgClickAndChange").src == "images/Group 239.svg")
-            {
-                document.getElementById("imgClickAndChange").src = "images/Group 239.svg";
-            }
-            else
-            {
-                document.getElementById("imgClickAndChange").src = "images/Group 239.svg";
-            }
-        }
-    </script>
   </head>
   <title>Home Punk</title>
   <body>
     <img src="images/Group 239.svg" class="head">
     <img src="images/Group 245.svg" class="app">
 
-    <div class="b4">
-    <img src="images/Group 241.svg" class="w4" id="w4">
+    <div class="b4" id="w4">
+    <img src="images/Group 241.svg" class="w4">
+    <img src="images/Group 223.svg" class="p1" >
     </div>
     <div class="b1" id="w1">
     <img src="images/Group 238.svg" class="w1"  draggable="" >
@@ -79,7 +67,7 @@
     <img src="images/Group 233.svg" class="w6" id="w6">
     </div>
     <div class="b7">
-    <img src="images/Group 234.svg" class="w7" id="w7">
+    <img src="images/Group 234.svg" class="w7" id="w7" onclick='changeImage("images/Group 234.svg");'>
     </div>
     <div class="b8" id="w8">
       <img src="images/Group 230.svg" class="w8">
