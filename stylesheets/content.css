@@ -1,0 +1,124 @@
+body{
+  overflow-x: hidden;
+  background-color: #FF009B;
+}
+.head{
+  height: 10vw;
+  overflow-x: hidden;
+}
+.w1{
+  position: absolute;
+  height: 30vw;
+  top:2vw;
+
+  left: 7vw;
+}
+.s1{
+  position: absolute;
+  left: 13vw;
+  height: 20vw;
+  top: 8vw;
+
+}
+.s2{
+  position: absolute;
+  left: 16vw;
+  height: 20vw;
+  top: 8vw;
+
+}
+.s3{
+  position: absolute;
+  left: 19vw;
+  height: 20vw;
+  top: 8vw;
+
+}
+.s4{
+  position: absolute;
+  left: 22vw;
+  height: 20vw;
+  top: 8vw;
+
+}
+.s5{
+  position: absolute;
+  left: 25vw;
+  height: 20vw;
+  top: 8vw;
+
+}
+.s6{
+  position: absolute;
+  left: 28vw;
+  height: 20vw;
+  top: 8vw;
+
+}
+.w2{
+  position: absolute;
+  height: 17vw;
+  left: 30vw;
+  top: 7vw;
+}
+.w3{
+  position: absolute;
+  height: 38vw;
+  left: 68vw;
+  top: 9vw;
+}
+.w4{
+  position: absolute;
+  height: 52vw;
+  left: 30vw;
+  top: 23vw;
+}
+.w5{
+  position: absolute;
+  height: 21vw;
+  left: 6vw;
+  top: 45vw;
+}
+.w6{
+  position: absolute;
+  height: 40vw;
+  right: 8vw;
+  top: 46vw;
+}
+.w7{
+  position: absolute;
+  height: 35vw;
+  left: 60vw;
+  top: 86vw;
+}
+.w8{
+  position: absolute;
+  height: 50vw;
+  top: 60vw;
+  left:3vw;
+}
+.d1{
+  position: absolute;
+  top: 65vw;
+  height: 45vw;
+  left: 0.1vw;
+  animation: d1 15s linear 0s infinite normal forwards;
+}
+@keyframes d1 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.w9{
+  position: absolute;
+  height: 23vw;
+  right: 25vw;
+  top: 70vw;
+}
+#w1:active {
+  cursor: grabbing;
+}
