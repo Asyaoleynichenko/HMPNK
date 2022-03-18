@@ -68,6 +68,18 @@ body{
   left: 30vw;
   top: 7vw;
 }
+.t1{
+  position: absolute;
+  left: 33vw;
+  height: 8vw;
+  top: 11vw;
+}
+.t2{
+  position: absolute;
+  left: 45vw;
+  height: 8vw;
+  top: 11vw;
+}
 .w3{
   position: absolute;
   height: 38vw;
