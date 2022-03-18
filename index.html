@@ -35,7 +35,21 @@
     $( function() {
       $( "#w9" ).draggable();
     } );
-
+    $(document).ready(function(){
+        $(".move-area").mousemove(function(event) {
+          let eye = $(".eye");
+          let x = (eye.offset().left) + (eye.width() / 2);
+          let y = (eye.offset().top) + (eye.height() / 2);
+          let rad = Math.atan2(event.pageX - x, event.pageY - y);
+          let rot = (rad * (180 / Math.PI) * -1) + 180;
+          eye.css({
+            '-webkit-transform': 'rotate(' + rot + 'deg)',
+            '-moz-transform': 'rotate(' + rot + 'deg)',
+            '-ms-transform': 'rotate(' + rot + 'deg)',
+            'transform': 'rotate(' + rot + 'deg)'
+          });
+        });
+      })
     </script>
   </head>
   <title>Home Punk</title>
@@ -83,6 +97,12 @@
     </div>
     <div class="b9" id="w9">
       <img src="images/Group 235.svg" class="w9">
+      <section class="move-area">
+  <div class='container'>
+    <div class='eye'></div>
+    <div class='eye'></div>
+  </div>
+</section>
     </div>
     </div>
   </body>
