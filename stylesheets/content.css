@@ -106,11 +106,13 @@ body{
 }
 .eraser{
   position: absolute;
-  right: 30vw;
+  right: 29vw;
   top: 50vw;
+  height: 5vw;
 }
 .marker{
   position: absolute;
+  height: 5vw;
   right: 10vw;
   top: 50vw;
 }
