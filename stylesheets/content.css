@@ -183,7 +183,7 @@ body{
   border-radius: 50%;
   height: 10vw;
   width: 10vw;
-  background: gray;
+  background: #EEEEEE;
   outline-color: black;
   outline-width: medium;
 }
