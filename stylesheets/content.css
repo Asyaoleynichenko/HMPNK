@@ -168,7 +168,7 @@ body{
   right: 25vw;
   top: 70vw;
 }
-.move-area{/*normally use body*/
+.move-area{
   width: 100vw;
   height: 100vh;
   padding: 10% 45%;
@@ -178,19 +178,21 @@ body{
 }
 .eye {
   position: relative;
-  top: 70vw;
+  top: 67vw;
   display: inline-block;
   border-radius: 50%;
-  height: 60px;
-  width: 70px;
-  background: #CCC;
+  height: 10vw;
+  width: 10vw;
+  background: gray;
+  outline-color: black;
+  outline-width: medium;
 }
-.eye:after { /*pupil*/
+.eye:after {
   position: absolute;
-  bottom: 17px;
-  right: 10px;
-  width: 10px;
-  height: 10px;
+  bottom: 2vw;
+  right: 1vw;
+  width: 30px;
+  height: 30px;
   background: #000;
   border-radius: 50%;
   content: " ";
