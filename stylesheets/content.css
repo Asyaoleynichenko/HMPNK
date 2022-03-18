@@ -97,6 +97,16 @@ body{
   right: 8vw;
   top: 46vw;
 }
+.eraser{
+  position: absolute;
+  right: 30vw;
+  top: 50vw;
+}
+.marker{
+  position: absolute;
+  right: 10vw;
+  top: 50vw;
+}
 .w7{
   position: absolute;
   height: 35vw;
