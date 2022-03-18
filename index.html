@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
     <script>
     $( function() {
       $( "#w1" ).draggable();
@@ -48,16 +49,31 @@
             'transform': 'rotate(' + rot + 'deg)'
           });
         });
-      })
+      });
+      $(document).ready(function(){
+$("#p3").click(function(){
+    $("#p31").css("display", "block");
+    $("#p3").css("display", "none");
+});
+});
+$(document).ready(function(){
+$("#p31").click(function(){
+    $("#p31").css("display", "none");
+    $("#p3").css("display", "block");
+});
+});
+
     </script>
   </head>
   <title>Home Punk</title>
   <body>
 
     <img src="images/Group 239.svg" class="head">
-    <img src="images/Group 245.svg" class="app">
+    <div class="use-2">
+    <button id="button"><img  src="images/Group 245.svg" class="app" alt=""></button>
+    </div>
 
-    <div class="b4" id="w4">
+    <div class="b4"id="w4">
     <img src="images/Group 241.svg" class="w4">
     <img src="images/Group 223.svg" class="p1" >
   </div>
@@ -89,8 +105,10 @@
     </div>
     <div class="b7" id="w7">
       <img src="images/Group 23.svg" class="w7">
-      <img src="images/Group 221.svg" class="p3">
+      <img src="images/Group 221.svg" id="p3" class="p3">
+      <img src="images/Group 2.svg" id="p31" class="w71">
     </div>
+
     <div class="b8" id="w8">
       <img src="images/Group 230.svg" class="w8">
       <img src="images/Group 246.svg" class="d1">

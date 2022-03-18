@@ -134,7 +134,15 @@ body{
   left: 60vw;
   top: 86vw;
 }
+.w71{
+  display: none;
+  position: absolute;
+  height: 35vw;
+  left: 60vw;
+  top: 86vw;
+}
 .p3{
+  display: block;
   position: absolute;
   height: 27.5vw;
   top: 92.8vw;
@@ -202,3 +210,45 @@ body{
 }
 #w1:active {
   cursor: grabbing;
+}
+.use-2 {
+
+}
+
+.use-2 button {
+  background: transparent;
+  border-radius: 50%;
+  border: 0;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
+.b1{
+
+}
+.b2{
+
+}
+.b3{
+
+}
+.b4{
+
+}
+.b5{
+
+}
+.b6{
+
+}
+.b7{
+
+}
+.b8{
+
+}
+.b9{
+
+}
