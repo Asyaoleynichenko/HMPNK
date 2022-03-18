@@ -6,11 +6,12 @@ body{
   height: 5.4vw;
   overflow-x: hidden;
 }
+
 .app{
   position: absolute;
   top: 45vw;
-  left: 39vw;
-  height: 30vw;
+  left: 43vw;
+  height: 25vw;
 }
 .w1{
   position: absolute;
@@ -73,6 +74,12 @@ body{
   left: 68vw;
   top: 9vw;
 }
+.p2{
+  position: absolute;
+  height: 34vw;
+  right: 6vw;
+  top: 12vw;
+}
 .w4{
   position: absolute;
   height: 52vw;
@@ -82,8 +89,8 @@ body{
 .p1{
   position: absolute;
   height: 50vw;
-  left: 33vw;
-  top: 25vw;
+  left: 33.4vw;
+  top: 24.5vw;
 }
 .w5{
   position: absolute;
@@ -112,6 +119,12 @@ body{
   height: 35vw;
   left: 60vw;
   top: 86vw;
+}
+.p3{
+  position: absolute;
+  height: 27.5vw;
+  top: 92.8vw;
+  right: 2vw;
 }
 .w8{
   position: absolute;
