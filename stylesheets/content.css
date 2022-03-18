@@ -166,33 +166,33 @@ body{
   position: absolute;
   height: 23vw;
   right: 25vw;
-  top: 70vw;
+
+
 }
 .move-area{
-  width: 100vw;
-  height: 100vh;
-  padding: 10% 45%;
+  width: 60vw;
+  height: 10vh;
+
 }
 .container {
   width: 100%;
 }
 .eye {
   position: relative;
-  top: 67vw;
   display: inline-block;
   border-radius: 50%;
   height: 10vw;
   width: 10vw;
   background: #EEEEEE;
-  outline-color: black;
-  outline-width: medium;
+
+
 }
 .eye:after {
   position: absolute;
   bottom: 2vw;
   right: 1vw;
-  width: 30px;
-  height: 30px;
+  width: 5vw;
+  height: 5vw;
   background: #000;
   border-radius: 50%;
   content: " ";
