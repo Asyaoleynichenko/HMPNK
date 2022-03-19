@@ -1,153 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <title>Home Punk</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-
-    <script>
-    $( function() {
-      $( "#w1" ).draggable();
-    } );
-    $( function() {
-      $( "#w2" ).draggable();
-    } );
-    $( function() {
-      $( "#w3" ).draggable();
-    } );
-    $( function() {
-      $( "#w4" ).draggable();
-    } );
-    $( function() {
-      $( "#w5" ).draggable();
-    } );
-    $( function() {
-      $( "#w6" ).draggable();
-    } );
-    $( function() {
-      $( "#w7" ).draggable();
-    } );
-    $( function() {
-      $( "#w8" ).draggable();
-    } );
-    $( function() {
-      $( "#w9" ).draggable();
-    } );
-    $(document).ready(function(){
-        $(".move-area").mousemove(function(event) {
-          let eye = $(".eye");
-          let x = (eye.offset().left) + (eye.width() / 2);
-          let y = (eye.offset().top) + (eye.height() / 2);
-          let rad = Math.atan2(event.pageX - x, event.pageY - y);
-          let rot = (rad * (180 / Math.PI) * -1) + 180;
-          eye.css({
-            '-webkit-transform': 'rotate(' + rot + 'deg)',
-            '-moz-transform': 'rotate(' + rot + 'deg)',
-            '-ms-transform': 'rotate(' + rot + 'deg)',
-            'transform': 'rotate(' + rot + 'deg)'
-          });
-        });
-      });
-      $(document).ready(function(){
-$("#p3").click(function(){
-    $("#p31").css("display", "block");
-    $("#p3").css("display", "none");
-});
-});
-$(document).ready(function(){
-$("#p31").click(function(){
-    $("#p31").css("display", "none");
-    $("#p3").css("display", "block");
-});
-});
-$(document).ready(function(){
-$("#p2").click(function(){
-$("#p21").css("display", "block");
-$("#p2").css("display", "none");
-});
-});
-$(document).ready(function(){
-$("#p21").click(function(){
-$("#p21").css("display", "none");
-$("#p2").css("display", "block");
-});
-});
-$(document).ready(function(){
-$("#p1").click(function(){
-$("#p11").css("display", "block");
-$("#p1").css("display", "none");
-});
-});
-$(document).ready(function(){
-$("#p11").click(function(){
-$("#p11").css("display", "none");
-$("#p1").css("display", "block");
-});
-});
-
-    </script>
+    <script src="js/script.js"> </script>
   </head>
-  <title>Home Punk</title>
-  <body>
 
-    <img src="images/Group 239.svg" class="head">
-    <div class="use-2">
-    <button id="button"><img  src="images/Group 245.svg" class="app" alt=""></button>
+  <body id="body">
+    <div id="button" class="app"><img  src="images/Group 245.svg" alt=""></div>
+    <div id="cont">
+    <div class="b1 image-container" id="w1">
+      <img src="images/Group 238.svg">
+      <img src="images/Line 33.svg">
+      <img src="images/Line 34.svg">
+      <img src="images/Line 35.svg">
+      <img src="images/Line 36.svg">
+      <img src="images/Line 37.svg">
+      <img src="images/Line 37.svg">
     </div>
+    <div class="b2 image-container" id="w2">
+      <img src="images/Group 237.svg">
+      <img src="images/Group 247.svg">
+      <img src="images/Group 247.svg">
+    </div>
+    <div class="b3 image-container" id="w3">
+      <img src="images/Group 229.svg">
+      <img src="images/Group 217.svg" id="p2">
+      <img src="images/Group 24.svg" id="p21">
+    </div>
+    <div class="b4 image-container" id="w4">
+      <img src="images/Group 241.svg">
+      <img src="images/Group 223.svg" id="p1">
+      <img src="images/Group 22.svg" id="p11" >
+    </div>
+    <div class="b5 image-container" id="w5">
+      <img src="images/Group 242.svg" >
+    </div>
+    <div class="b6 image-container" id="w6">
+      <img src="images/Group 233.svg" id="colors_sketch">
+      <a class="marker" href="#colors_sketch" data-tool="marker">Marker</a>
+      <a class="eraser"  data-tool="eraser">Eraser</a>
+    </div>
+    <div class="b7 image-container" id="w7">
+      <img src="images/Group 23.svg">
+      <img src="images/Group 221.svg" id="p3">
+      <img src="images/Group 2.svg" id="p31">
+    </div>
+    <div class="b8 image-container" id="w8">
+      <img src="images/Group 230.svg">
+      <img src="images/Group 246.svg">
+    </div>
+    <div class="b9 image-container" id="w9" >
+     <img width="409" height="241" viewBox="0 0 409 241" src="images/Group 235.svg">
 
-    <div class="b4"id="w4">
-    <img src="images/Group 241.svg" class="w4">
-    <img src="images/Group 223.svg" id="p1"class="p1" >
-    <img src="images/Group 22.svg" id="p11" class="p1">
-  </div>
-    <div class="b1" id="w1">
-    <img src="images/Group 238.svg" class="w1"  draggable="" >
-      <img src="images/Line 33.svg" class="s1">
-        <img src="images/Line 34.svg" class="s2">
-          <img src="images/Line 35.svg" class="s3">
-            <img src="images/Line 36.svg" class="s4">
-              <img src="images/Line 37.svg" class="s5">
-                <img src="images/Line 37.svg" class="s6">
-    </div>
-    <div class="b2" id="w2">
-    <img src="images/Group 237.svg" class="w2" >
-    <img src="images/Group 247.svg" class="t1">
-    <img src="images/Group 247.svg" class="t2">
-    </div>
-    <div class="b3" id="w3">
-    <img src="images/Group 229.svg" class="w3" >
-    <img src="images/Group 217.svg" id="p2"class="p2">
-    <img src="images/Group 24.svg" id="p21" class="p2">
-    </div>
-    <div class="b5">
-    <img src="images/Group 242.svg" class="w5" id="w5">
-    </div>
-    <div class="b6" id="w6">
-      <img src="images/Group 233.svg" class="w6"  id="colors_sketch">
-      <a class="marker"  href="#colors_sketch" data-tool="marker">Marker</a> <a class="eraser" href="#colors_sketch" data-tool="eraser">
-       Eraser</a>
-    </div>
-    <div class="b7" id="w7">
-      <img src="images/Group 23.svg" class="w7">
-      <img src="images/Group 221.svg" id="p3" class="p3">
-      <img src="images/Group 2.svg" id="p31" class="w71">
-    </div>
-
-    <div class="b8" id="w8">
-      <img src="images/Group 230.svg" class="w8">
-      <img src="images/Group 246.svg" class="d1">
-    </div>
-    <div class="b9" id="w9">
-      <img src="images/Group 235.svg" class="w9">
-      <section class="move-area">
-  <div class='container'>
-    <div class='eye'></div>
-    <div class='eye'></div>
-  </div>
-  </section>
+      <div >
+        <div class='eye'></div>
+        <div class='eye'></div>
+      </div>
     </div>
     </div>
+  <script>f()</script>
   </body>
 </html>

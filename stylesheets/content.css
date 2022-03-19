@@ -1,255 +1,50 @@
 body{
-  overflow hidden;
   background-color: #FF009B;
+  position: relative;
 }
+
 .head{
   height: 5.4vw;
   overflow-x: hidden;
 }
-
+.image-container {
+  position: absolute;
+}
+.image-container>img{
+  position: absolute;
+  top:0;
+  left: 0;
+}
 .app{
   position: absolute;
   top: 45vw;
   left: 43vw;
   height: 25vw;
 }
-.w1{
-  position: absolute;
-  height: 30vw;
-  top:2vw;
 
-  left: 7vw;
-}
-.s1{
-  position: absolute;
-  left: 13vw;
-  height: 20vw;
-  top: 8vw;
-
-}
-.s2{
-  position: absolute;
-  left: 16vw;
-  height: 20vw;
-  top: 8vw;
-
-}
-.s3{
-  position: absolute;
-  left: 19vw;
-  height: 20vw;
-  top: 8vw;
-
-}
-.s4{
-  position: absolute;
-  left: 22vw;
-  height: 20vw;
-  top: 8vw;
-
-}
-.s5{
-  position: absolute;
-  left: 25vw;
-  height: 20vw;
-  top: 8vw;
-
-}
-.s6{
-  position: absolute;
-  left: 28vw;
-  height: 20vw;
-  top: 8vw;
-
-}
-.w2{
-  position: absolute;
-  height: 17vw;
-  left: 30vw;
-  top: 7vw;
-}
-.t1{
-  position: absolute;
-  left: 33vw;
-  height: 8vw;
-  top: 11vw;
-}
-.t2{
-  position: absolute;
-  left: 45vw;
-  height: 8vw;
-  top: 11vw;
-}
-.w3{
-  position: absolute;
-  height: 38vw;
-  left: 68vw;
-  top: 9vw;
-}
-.p2{
-  position: absolute;
-  height: 34vw;
-  right: 6vw;
-  top: 12vw;
-}
-.w4{
-  position: absolute;
-  height: 52vw;
-  left: 30vw;
-  top: 23vw;
-}
-.p1{
-  position: absolute;
-  height: 50vw;
-  left: 33.4vw;
-  top: 24.5vw;
-}
-.w5{
-  position: absolute;
-  height: 21vw;
-  left: 6vw;
-  top: 45vw;
-}
-.w6{
-  position: absolute;
-  height: 40vw;
-  right: 8vw;
-  top: 46vw;
-}
-.eraser{
-  position: absolute;
-  right: 29vw;
-  top: 50vw;
-  height: 5vw;
-}
-.marker{
-  position: absolute;
-  height: 5vw;
-  right: 10vw;
-  top: 50vw;
-}
-.w7{
-  position: absolute;
-  height: 35vw;
-  left: 60vw;
-  top: 86vw;
-}
-.w71{
-  display: none;
-  position: absolute;
-  height: 35vw;
-  left: 60vw;
-  top: 86vw;
-}
-
-.p3{
-  display: block;
-  position: absolute;
-  height: 27.5vw;
-  top: 92.8vw;
-  right: 2vw;
-}
-.w8{
-  position: absolute;
-  height: 50vw;
-  top: 60vw;
-  left:3vw;
-}
-.d1{
-  position: absolute;
-  top: 65vw;
-  height: 45vw;
-  left: 0.1vw;
-  animation: d1 15s linear 0s infinite normal forwards;
-}
-@keyframes d1 {
-  0% {
-    transform: rotate(0);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.w9{
-  position: absolute;
-  height: 23vw;
-  right: 25vw;
-  top: 70vw;
-
-
-}
-.move-area{
-  width: 30vw;
-  height: 2vh;
-
-}
-.container {
-  width: 100%;
-}
-.eye {
-  position: relative;
-  display: inline-block;
-  border-radius: 50%;
-  height: 10vw;
-  width: 10vw;
-  background: #EEEEEE;
-  left: 45vw;
-  top: 77vw;
-
-
-}
-.eye:after {
-  position: absolute;
-  bottom: 2vw;
-  right: 1vw;
-  width: 5vw;
-  height: 5vw;
-  background: #000;
-  border-radius: 50%;
-  content: " ";
-}
 #w1:active {
   cursor: grabbing;
 }
-.use-2 {
-
-}
-
 .use-2 button {
   background: transparent;
   border-radius: 50%;
   border: 0;
 }
 
-
-button:hover {
-  cursor: pointer;
+.disappear {
+  opacity: 1;
+  animation: disappearAnimation 1.5s forwards;
 }
-.b1{
-
+.appear {
+  opacity: 0;
+  animation: appearAnimation 1.5s forwards;
 }
-.b2{
 
+@keyframes disappearAnimation {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
 }
-.b3{
-
-}
-.b4{
-
-}
-.b5{
-
-}
-.b6{
-
-}
-.b7{
-
-}
-.b8{
-
-}
-.b9{
-
+@keyframes appearAnimation {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
