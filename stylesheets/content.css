@@ -87,10 +87,19 @@ body{
   top: 9vw;
 }
 .p2{
+  display: block;
   position: absolute;
   height: 34vw;
   right: 6vw;
   top: 12vw;
+}
+.p21{
+  display: block;
+  position: absolute;
+  height: 34vw;
+  right: 6vw;
+  top: 12vw;
+
 }
 .w4{
   position: absolute;
@@ -99,6 +108,7 @@ body{
   top: 23vw;
 }
 .p1{
+  display: block;
   position: absolute;
   height: 50vw;
   left: 33.4vw;
@@ -109,6 +119,91 @@ body{
   height: 21vw;
   left: 6vw;
   top: 45vw;
+}
+.k1{
+  position: absolute;
+  height: 13vw;
+  left: 6vw;
+  top: 53vw;
+}
+.k2{
+  position: absolute;
+  height: 13vw;
+  left: 9.3vw;
+  top: 53vw;
+}
+.k3{
+  position: absolute;
+  height: 13vw;
+  left: 13.5vw;
+  top: 53vw;
+}
+.k4{
+  position: absolute;
+  height: 13vw;
+  left: 16vw;
+  top: 53vw;
+}
+.k5{
+  position: absolute;
+  height: 13vw;
+  left: 19vw;
+  top: 53vw;
+}
+.k6{
+  position: absolute;
+  height: 13vw;
+  left: 22vw;
+  top: 53vw;
+}
+.k7{
+  position: absolute;
+  height: 13vw;
+  left: 26vw;
+  top: 53vw;
+}
+.k8{
+  position: absolute;
+  height: 13vw;
+  left: 29.3vw;
+  top: 53vw;
+}
+.k9{
+  position: absolute;
+  height: 13vw;
+  left: 33vw;
+  top: 53vw;
+}
+.k10{
+  position: absolute;
+  height: 13vw;
+  left: 36.5vw;
+  top: 53vw;
+}
+
+.k11{
+  position: absolute;
+  height: 13vw;
+  left: 40.5vw;
+  top: 53vw;
+}
+.k12{
+  position: absolute;
+  height: 13vw;
+  left: 44.5vw;
+  top: 53vw;
+}
+.k13{
+  position: absolute;
+  height: 13vw;
+  left: 49vw;
+  top: 53vw;
+}
+.k14{
+  position: absolute;
+  height: 13vw;
+  left: 53vw;
+  top: 53vw;
 }
 .w6{
   position: absolute;
@@ -143,6 +238,13 @@ body{
 }
 
 .p3{
+  display: block;
+  position: absolute;
+  height: 27.5vw;
+  top: 92.8vw;
+  right: 2vw;
+}
+.p31{
   display: block;
   position: absolute;
   height: 27.5vw;
@@ -226,6 +328,7 @@ body{
 button:hover {
   cursor: pointer;
 }
+
 .b1{
 
 }
