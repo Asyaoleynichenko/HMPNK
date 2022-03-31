@@ -78,28 +78,33 @@ body{
   position: absolute;
   height: 52vw;
   left: 30vw;
-  top: 23vw;
+  top: 33vw;
 }
 .b5{
   position: absolute;
-  height: 21vw;
+  height: 40vw;
   left: 6vw;
-  top: 45vw;
+  top: 30vw;
 }
 .b6{
   position: absolute;
   height: 40vw;
-  right: 8vw;
+  right: 20vw;
   top: 46vw;
 }
 .b7{
   position: absolute;
   height: 20vw;
   right: 40vw;
-  top: 60vw;
+  top: 70vw;
 }
 
-
+.b8{
+  position: absolute;
+  height: 10vw;
+  left: 4vw;
+  top: 60vw;
+}
 .w1{
   height: 25vw;
 }
@@ -120,6 +125,7 @@ body{
 }
 .w6{
   height: 25vw;
+  right: 20vw;
 }
 .w7{
   position: absolute;
@@ -128,15 +134,14 @@ body{
   top: 86vw;
 }
 .w8{
-  position: absolute;
-  height: 50vw;
-  top: 60vw;
+  position: relative;
+  height: 45vw;
   left:3vw;
 }
 .d1{
   position: absolute;
-  top: 65vw;
-  height: 45vw;
+  top: 30vw;
+  height: 40vw;
   left: 0.1vw;
   animation: d1 15s linear 0s infinite normal forwards;
 }
@@ -221,4 +226,7 @@ body{
    right:1vw;
     display: block;
       height: 30vw;
+}
+#canvas{
+  border: 2vw solid black;
 }
