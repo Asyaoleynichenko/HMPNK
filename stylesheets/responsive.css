@@ -60,22 +60,24 @@
   }
   .b5{
     top: 90vw;
-    height: 10vw;
+  
   }
   .w5{
-    height: 30vw;
+    height: 60vw;
   }
   .b6{
     top: 120vw;
     height: 50vw;
+    left: 60vw;
   }
   .w6{
     height: 50vw;
+    left: 50vw;
   }
   .b8{
       height: 20vw;
     top: 170vw;
-    left: 40vw;
+    left: 50vw;
   }
   .w8{
     height: 50vw;
@@ -86,8 +88,20 @@
   .b9{
     height: 10vw;
     top: 70vw;
+
   }
   .w9{
+    left: 1vw;
+    height: 30vw;
+  }
+  .eye{
+    left: 15vw;
+  }
+  .b7{
+    left: 15vw;
+    top: 120vw;
+  }
+  .w7{
     height: 40vw;
   }
 }
