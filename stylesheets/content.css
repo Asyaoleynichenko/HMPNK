@@ -94,14 +94,11 @@ body{
 }
 .b7{
   position: absolute;
-  height: 35vw;
-  right: 20vw;
-  top: 86vw;
+  height: 20vw;
+  right: 40vw;
+  top: 60vw;
 }
-.b8{
-  left: 10vw;
-  bottom: 20vw;
-}
+
 
 .w1{
   height: 25vw;
@@ -132,14 +129,15 @@ body{
 }
 .w8{
   position: absolute;
-  height: 33vw;
-  top: 40vw;
-  left:4vw;
+  height: 50vw;
+  top: 60vw;
+  left:3vw;
 }
 .d1{
   position: absolute;
-  top: 20vw;
-  height: 30vw;
+  top: 65vw;
+  height: 45vw;
+  left: 0.1vw;
   animation: d1 15s linear 0s infinite normal forwards;
 }
 @keyframes d1 {
@@ -151,6 +149,7 @@ body{
     transform: rotate(360deg);
   }
 }
+
 .w9{
   position: absolute;
   height: 23vw;
