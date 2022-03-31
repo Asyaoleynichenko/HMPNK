@@ -1,7 +1,7 @@
 
 
 
-
+let music_paused = false;
 $(function () {
     $("#w1").draggable();
 });

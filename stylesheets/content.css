@@ -225,7 +225,7 @@ body{
     display: none;
   top:2.5vw;
    left: 2vw;
-    display: block;
+  
       height: 35vw;
 }
 #p3{
@@ -238,7 +238,7 @@ body{
     display: none;
   top:5vw;
    right:1vw;
-    display: block;
+
       height: 30vw;
 }
 #canvas{

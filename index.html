@@ -48,22 +48,30 @@
         let tone_do = new Audio("do.wav");
         tone_do.play();
 }
-function te5(){
-  let my_music = new Audio("my_music.wav");
-my_music.loop();
-my_music.onended = function(){
-my_music.play();
+    let my_music = new Audio("do.wav");
+    my_music.loop = true;
+    my_music.onended = function(){
+    my_music.play();
+    }
+
+    function play_music(t){
+      if(music_paused){
+          my_music.play();
+          t.style.transform = "rotate(45deg)";
+      }
+      else{
+          my_music.pause();
+           t.style.transform = "rotate(0)";
+      }
+      music_paused = !music_paused;
+    }
+    function waves() {
+        document.getElementById("wave1").style.display="none";
+          document.getElementById("l1").style.display="block";
 }
-let music_paused = false;
-function play_music(){
-  if(music_paused){
-      my_music.play();
-  }
-  else{
-      my_music.pause();
-  }
-  music_paused = !music_paused;
-}
+function waves_out() {
+    document.getElementById("l1").style.display="none";
+      document.getElementById("wave1").style.display="block";
 }
 
   </script>
@@ -75,16 +83,17 @@ function play_music(){
     <div class="b1 image-container" id="w1">
       <img class="w1"src="images/Group 238.svg">
 
-      <img src="images/Line 37.svg" style="top:3.819vw; left: 4.861vw; height:70%;">
+      <img src="images/Line 37.svg" id="l1"style="top:3.819vw; left: 4.861vw; height:70%;"onclick="waves_out()">
       <img src="images/Line 37.svg" style="top:3.819vw; left: 7.639vw; height:70%;">
       <img src="images/Line 36.svg" style="top:3.819vw; left: 10.417vw; height:70%;">
       <img src="images/Line 35.svg" style="top:3.819vw; left: 13.194vw; height:70%;">
       <img src="images/Line 34.svg" style="top:3.819vw; left: 15.972vw; height:70%;">
       <img src="images/Line 33.svg" style="top:3.819vw; left: 18.750vw; height:70%;">
+      <img src="images/Waves.svg" id="wave1" style="top:3.819vw; left: 18.750vw; height:70%; display: none"onclick="waves()">
     </div>
     <div class="b2 image-container" id="w2">
       <img class="w2" src="images/Group 237.svg">
-      <img class="play1"src="images/Group 247.svg" onclick="t4()">
+      <img class="play1"src="images/Group 247.svg" onclick="play_music(this)">
       <img class="play2" src="images/Group 247.svg" >
     </div>
     <div class="b3 image-container" id="w3">
