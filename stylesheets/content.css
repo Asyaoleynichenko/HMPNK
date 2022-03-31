@@ -150,7 +150,7 @@ body{
 }
 .d1{
   position: absolute;
-  top: 30vw;
+  top: 5vw !important;
   height: 40vw;
   left: 0.1vw;
   animation: d1 15s linear 0s infinite normal forwards;
