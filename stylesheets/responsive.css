@@ -25,11 +25,21 @@
     left:50vw;
   }
   .b3{
-    height: 100vw;
-    top: 120vw;
-    left: 2vw;
-  }
 
+    top: 150vw;
+    left: 10vw;
+  }
+  #p2{
+    height: 45vw;
+    top: 4.5vw;
+  }
+  #p21{
+    height: 45vw;
+    top: 4.5vw;
+  }
+.w3{
+    height: 50vw;
+}
   .w4{
     height:100vw;
     left: 50vw;
@@ -50,5 +60,13 @@
   }
   .b5{
     top: 90vw;
+    height: 10vw;
+  }
+  .w5{
+    height: 30vw;
+  }
+  .b8{
+    top: 130vw;
+    left: 60vw;
   }
 }
