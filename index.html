@@ -49,8 +49,21 @@
         tone_do.play();
 }
 function te5(){
-    let t = new Audio("si.wav");
-    t.play();
+  let my_music = new Audio("my_music.wav");
+my_music.loop();
+my_music.onended = function(){
+my_music.play();
+}
+let music_paused = false;
+function play_music(){
+  if(music_paused){
+      my_music.play();
+  }
+  else{
+      my_music.pause();
+  }
+  music_paused = !music_paused;
+}
 }
 
   </script>
@@ -71,7 +84,7 @@ function te5(){
     </div>
     <div class="b2 image-container" id="w2">
       <img class="w2" src="images/Group 237.svg">
-      <img class="play1"src="images/Group 247.svg">
+      <img class="play1"src="images/Group 247.svg" onclick="t4()">
       <img class="play2" src="images/Group 247.svg" >
     </div>
     <div class="b3 image-container" id="w3">
