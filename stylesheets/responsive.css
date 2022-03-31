@@ -3,13 +3,13 @@
   .b1{
 
     height: 40vw;
-    top:4vw;
+    top:6vw;
     left: 3vw;
   }
   .w1{
 
     height: 40vw;
-    top:4vw;
+    top:6vw;
     left: 3vw;
   }
   .b2{
@@ -59,11 +59,12 @@
     top: 9.5vw;
   }
   .b5{
-    top: 90vw;
+    top: 50vw;
+      height: 70vw;
 
   }
   .w5{
-    height: 60vw;
+    height: 70vw;
   }
   .b6{
     top: 120vw;
