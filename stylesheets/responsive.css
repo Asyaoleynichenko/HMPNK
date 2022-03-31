@@ -1,31 +1,50 @@
 @media only screen and (min-device-width: 316px) and (max-device-width: 480px) and (orientation: portrait) {
+
   .b1{
-    position: absolute;
-    height: 50vw;
+
+    height: 40vw;
     top:4vw;
     left: 3vw;
   }
   .w1{
-    position: absolute;
-    height: 50vw;
+
+    height: 40vw;
     top:4vw;
     left: 3vw;
   }
   .b2{
-    position: absolute;
+
     height: 30vw;
     top:4vw;
   left:50vw;
   }
   .w2{
-    position: absolute;
+
     height: 20vw;
     top:4vw;
     left:50vw;
   }
   .b3{
-    height: 50vw;
-    top: 90vw;
+    height: 100vw;
+    top: 120vw;
     left: 2vw;
+  }
+  .b4{
+    height:150vw;
+    left: 10vw;
+  }
+  .w4{
+    height:80vw;
+    left: 10vw;
+  }
+  #p1{
+    height: 70vw;
+    left: 8vw;
+    top: 9vw;
+  }
+  #p11{
+    height: 70vw;
+    left: 8vw;
+    top: 9.5vw;
   }
 }
