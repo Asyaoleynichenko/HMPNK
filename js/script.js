@@ -180,5 +180,42 @@ window.addEventListener("load", function onWindowLoad() {
         }
       }
     }
+
 });
+<script>
+  function temporary2(t) {
+    t.style.opacity = "0.9";
+    if(t.id === "tone_do"){
+      let tone_do = new Audio("do.wav");
+      tone_do.play();
+    }
+    if(t.id === "tone_re"){
+      let tone_re = new Audio("re.wav");
+      tone_re.play();
+    }
+    if(t.id === "tone_mi"){
+      let tone_mi = new Audio("mi.wav");
+      tone_mi.play();
+    }
+    if(t.id === "tone_fa"){
+      let tone_fa = new Audio("fa.wav");
+      tone_fa.play();
+    }
+    if(t.id === "tone_sol"){
+      let tone_sol = new Audio("sol.wav");
+      tone_sol.play();
+    }
+    if(t.id === "tone_la"){
+      let tone_la = new Audio("la.wav");
+      tone_la.play();
+    }
+    if(t.id === "tone_si"){
+      let tone_si = new Audio("si.wav");
+      tone_si.play();
+    }
+  }
+  function temporary3(t) {
+    t.style.opacity = "0.0";
+  }
+</script>
 });
