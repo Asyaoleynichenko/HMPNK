@@ -132,14 +132,14 @@ body{
 }
 .w8{
   position: absolute;
-  height: 40vw;
-  top: 60vw;
-  left:3vw;
+  height: 33vw;
+  top: 40vw;
+  left:4vw;
 }
 .d1{
   position: absolute;
-  top: 65vw;
-  height: 40vw;
+  top: 20vw;
+  height: 30vw;
   animation: d1 15s linear 0s infinite normal forwards;
 }
 @keyframes d1 {
