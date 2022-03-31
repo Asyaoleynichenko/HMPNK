@@ -65,6 +65,24 @@
       }
       music_paused = !music_paused;
     }
+    let my_music2 = new Audio("do.wav");
+    my_music2.loop = true;
+    my_music2.onended = function(){
+    my_music2.play();
+    }
+    function play_music2(t){
+      if(music_paused){
+          my_music2.play();
+          t.style.transform = "rotate(45deg)";
+      }
+      else{
+          my_music2.pause();
+           t.style.transform = "rotate(0)";
+      }
+      music_paused = !music_paused;
+    }
+
+
     function waves() {
         document.getElementById("wave1").style.display="none";
           document.getElementById("l1").style.display="block";
@@ -145,7 +163,7 @@ document.getElementById("l6").style.display="none";
     <div class="b2 image-container" id="w2">
       <img class="w2" src="images/Group 237.svg">
       <img class="play1"src="images/Group 247.svg" onclick="play_music(this)">
-      <img class="play2" src="images/Group 247.svg" >
+      <img class="play2" src="images/Group 247.svg"onclick="play_music2(this)" >
     </div>
     <div class="b3 image-container" id="w3">
       <img class="w3"src="images/Group 229.svg">
@@ -155,19 +173,19 @@ document.getElementById("l6").style.display="none";
     <div class="b5 image-container" id="w5">
       <img class="w5"src="images/Group 242.svg">
       <img src="images/Vector%20261.svg" id="tone_do" style="opacity:0;top:10.4vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20262.svg" id="tone_re" style="opacity:0;top:10.4vw;left:2.3vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20263.svg" id="tone_mi" style="opacity:0;top:10.4vw;left:5.7vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20264.svg" id="tone_fa" style="opacity:0;top:10.4vw;left:8vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20265.svg" id="tone_sol" style="opacity:0;top:10.4vw;left:10.7vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20266.svg" id="tone_la" style="opacity:0;top:10.4vw;left:13.4vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20267.svg" id="tone_si" style="opacity:0;top:10.4vw;left:16.9vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20268.svg" id="tone_do" style="opacity:0;top:10.4vw;left:19.9vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20269.svg" id="tone_re" style="opacity:0;top:10.4vw;left:23vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20270.svg" id="tone_mi" style="opacity:0;top:10.4vw;left:26vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20271.svg" id="tone_fa" style="opacity:0;top:10.4vw;left:29.3vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20262.svg" id="tone_re" style="opacity:0;top:10.4vw;left:2.5vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20263.svg" id="tone_mi" style="opacity:0;top:10.4vw;left:5.8vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20264.svg" id="tone_fa" style="opacity:0;top:10.4vw;left:8.2vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20265.svg" id="tone_sol" style="opacity:0;top:10.4vw;left:10.9vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20266.svg" id="tone_la" style="opacity:0;top:10.4vw;left:13.6vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20267.svg" id="tone_si" style="opacity:0;top:10.4vw;left:17.1vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20268.svg" id="tone_do" style="opacity:0;top:10.4vw;left:20vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20269.svg" id="tone_re" style="opacity:0;top:10.4vw;left:23.1vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20270.svg" id="tone_mi" style="opacity:0;top:10.4vw;left:26.2vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20271.svg" id="tone_fa" style="opacity:0;top:10.4vw;left:29.5vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
       <img src="images/Vector%20272.svg" id="tone_sol" style="opacity:0;top:10.4vw;left:33vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20273.svg" id="tone_la" style="opacity:0;top:10.4vw;left:36.8vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
-      <img src="images/Vector%20274.svg" id="tone_si" style="opacity:0;top:10.4vw;left:40.4vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20273.svg" id="tone_la" style="opacity:0;top:10.4vw;left:37vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
+      <img src="images/Vector%20274.svg" id="tone_si" style="opacity:0;top:10.4vw;left:40.6vw; height: 11vw;" onmouseenter="temporary2(this)" onmouseleave="temporary3(this)">
     </div>
     <div class="container">
     <div class="b6 image-container" id="w6">

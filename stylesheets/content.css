@@ -85,12 +85,12 @@ body{
   position: absolute;
   height: 40vw;
   left: 6vw;
-  top: 30vw;
+  top: 35vw;
 }
 .b6{
   position: absolute;
   height: 45vw;
-  right: 18vw;
+  right: 30vw;
   top: 46vw;
 }
 .b7{
@@ -138,7 +138,7 @@ body{
 }
 .w6{
   height: 36vw;
-  right: 18vw;
+    right: 30vw;
 }
 .w7{
   position: absolute;
