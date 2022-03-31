@@ -57,7 +57,7 @@ body{
 
 .b1{
   position: absolute;
-  height: 30vw;
+  height: 33vw;
   top:2vw;
 
   left: 7vw;
@@ -106,10 +106,21 @@ body{
   top: 60vw;
 }
 .w1{
-  height: 25vw;
+  height: 30vw;
 }
 .w2{
   height: 20vw;
+}
+.play1{
+  position: absolute;
+  top: 10vw;
+  height: 10vw;
+}
+.play2{
+  position: absolute;
+  top: 10vw;
+  height: 10vw;
+  left: 15vw;
 }
 .w3{
   position: absolute;
