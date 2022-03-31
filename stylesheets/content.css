@@ -209,6 +209,7 @@ body{
   height: 50vw;
 }
 #p11{
+  display: none;
   top:5vw;
   left: 3vw;
   height: 50vw;
@@ -220,6 +221,7 @@ body{
     height: 35vw;
 }
 #p21{
+  display: none;
   top:2.5vw;
    left: 2vw;
     display: block;
@@ -232,6 +234,7 @@ body{
     height: 27.6vw;
 }
 #p31{
+  display: none;
   top:5vw;
    right:1vw;
     display: block;
