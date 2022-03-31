@@ -112,14 +112,15 @@ body{
 }
 .play1{
   position: absolute;
-  top: 10vw;
+  top: 5vw !important;
   height: 10vw;
+  left: 3vw!important;
 }
 .play2{
   position: absolute;
-  top: 10vw;
-  height: 10vw;
-  left: 15vw;
+  top: 5vw !important;
+  height: 10vw!important;
+  left: 15vw!important;
 }
 .w3{
   position: absolute;
@@ -221,7 +222,7 @@ body{
     height: 35vw;
 }
 #p21{
-  display: none;
+    display: none;
   top:2.5vw;
    left: 2vw;
     display: block;
@@ -234,7 +235,7 @@ body{
     height: 27.6vw;
 }
 #p31{
-  display: none;
+    display: none;
   top:5vw;
    right:1vw;
     display: block;
