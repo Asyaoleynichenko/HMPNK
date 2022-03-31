@@ -60,7 +60,7 @@
   }
   .b5{
     top: 90vw;
-  
+
   }
   .w5{
     height: 60vw;
@@ -104,4 +104,218 @@
   .w7{
     height: 40vw;
   }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+  .b1{
+
+    height: 40vw;
+    top:4vw;
+    left: 3vw;
+  }
+  .w1{
+
+    height: 40vw;
+    top:4vw;
+    left: 3vw;
+  }
+  .b2{
+
+    height: 30vw;
+    top:8vw;
+  left:50vw;
+  }
+  .w2{
+
+    height: 30vw;
+    top:8vw;
+    left:70vw;
+  }
+  .b3{
+
+    top: 179vw;
+    left: 10vw;
+  }
+  #p2{
+    height: 45vw;
+    top: 4.5vw;
+  }
+  #p21{
+    height: 45vw;
+    top: 4.5vw;
+  }
+.w3{
+    height: 50vw;
+}
+  .w4{
+    height:100vw;
+    left: 50vw;
+
+  }
+  .b4{
+    left: 20vw;
+  }
+  #p1{
+    height: 90vw;
+    left: 8.5vw;
+    top: 9vw;
+  }
+  #p11{
+    height: 90vw;
+    left: 5vw;
+    top: 9.5vw;
+  }
+  .b5{
+    top: 90vw;
+
+  }
+  .w5{
+    height: 60vw;
+  }
+  .b6{
+    top: 120vw;
+    height: 50vw;
+    left: 60vw;
+  }
+  .w6{
+    height: 50vw;
+    left: 50vw;
+  }
+  .b8{
+      height: 20vw;
+    top: 170vw;
+    left: 50vw;
+  }
+  .w8{
+    height: 50vw;
+  }
+  .d1{
+    top: 10vw;
+  }
+  .b9{
+    height: 10vw;
+    top: 70vw;
+
+  }
+  .w9{
+    left: 1vw;
+    height: 30vw;
+  }
+  .eye{
+    left: 15vw;
+  }
+  .b7{
+    left: 15vw;
+    top: 120vw;
+  }
+  .w7{
+    height: 40vw;
+  }
+
+}
+@media only screen and (min-device-width: 50px) and (max-device-width: 315px) and (orientation: portrait){
+  .b1{
+
+    height: 40vw;
+    top:4vw;
+    left: 3vw;
+  }
+  .w1{
+
+    height: 40vw;
+    top:4vw;
+    left: 3vw;
+  }
+  .b2{
+
+    height: 30vw;
+    top:8vw;
+  left:50vw;
+  }
+  .w2{
+
+    height: 30vw;
+    top:8vw;
+    left:70vw;
+  }
+  .b3{
+
+    top: 179vw;
+    left: 10vw;
+  }
+  #p2{
+    height: 45vw;
+    top: 4.5vw;
+  }
+  #p21{
+    height: 45vw;
+    top: 4.5vw;
+  }
+.w3{
+    height: 50vw;
+}
+  .w4{
+    height:100vw;
+    left: 50vw;
+
+  }
+  .b4{
+    left: 20vw;
+  }
+  #p1{
+    height: 90vw;
+    left: 8.5vw;
+    top: 9vw;
+  }
+  #p11{
+    height: 90vw;
+    left: 5vw;
+    top: 9.5vw;
+  }
+  .b5{
+    top: 90vw;
+
+  }
+  .w5{
+    height: 60vw;
+  }
+  .b6{
+    top: 120vw;
+    height: 50vw;
+    left: 60vw;
+  }
+  .w6{
+    height: 50vw;
+    left: 50vw;
+  }
+  .b8{
+      height: 20vw;
+    top: 170vw;
+    left: 50vw;
+  }
+  .w8{
+    height: 50vw;
+  }
+  .d1{
+    top: 10vw;
+  }
+  .b9{
+    height: 10vw;
+    top: 70vw;
+
+  }
+  .w9{
+    left: 1vw;
+    height: 30vw;
+  }
+  .eye{
+    left: 15vw;
+  }
+  .b7{
+    left: 15vw;
+    top: 120vw;
+  }
+  .w7{
+    height: 40vw;
+  }
+
 }
