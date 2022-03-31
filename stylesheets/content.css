@@ -146,14 +146,14 @@ body{
 }
 .w8{
   position: relative;
-  height: 45vw;
+  height: 50vw;
   left:3vw;
 }
 .d1{
   position: absolute;
   top: 5vw !important;
   height: 40vw;
-  left: 0.1vw;
+
   animation: d1 15s linear 0s infinite normal forwards;
 }
 @keyframes d1 {
@@ -225,7 +225,7 @@ body{
     display: none;
   top:2.5vw;
    left: 2vw;
-  
+
       height: 35vw;
 }
 #p3{
