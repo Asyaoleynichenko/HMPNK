@@ -15,18 +15,18 @@
   .b2{
 
     height: 30vw;
-    top:4vw;
+    top:8vw;
   left:50vw;
   }
   .w2{
 
     height: 30vw;
-    top:4vw;
-    left:50vw;
+    top:8vw;
+    left:70vw;
   }
   .b3{
 
-    top: 150vw;
+    top: 179vw;
     left: 10vw;
   }
   #p2{
@@ -65,8 +65,22 @@
   .w5{
     height: 30vw;
   }
+  .b6{
+    top: 120vw;
+    height: 50vw;
+  }
+  .w6{
+    height: 50vw;
+  }
   .b8{
-    top: 130vw;
-    left: 60vw;
+      height: 20vw;
+    top: 170vw;
+    left: 40vw;
+  }
+  .w8{
+    height: 50vw;
+  }
+  .d1{
+    top: 10vw;
   }
 }
