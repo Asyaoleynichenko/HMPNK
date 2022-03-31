@@ -54,3 +54,134 @@ body{
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
+.d1{
+  position: absolute;
+  top: 70vw;
+  height: 36vw;
+  right:5vw;
+  animation: d1 15s linear 0s infinite normal forwards;
+}
+@keyframes d1 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.b1{
+  position: absolute;
+  height: 10vw;
+  left: 30vw;
+  top: 40vw;
+}
+.b2{
+  position: absolute;
+  height: 10vw;
+  left: 30vw;
+  top: 40vw;
+}
+.b3{
+  position: absolute;
+  height: 10vw;
+  left: 30vw;
+  top: 40vw;
+}
+.b4{
+  position: absolute;
+  height: 10vw;
+  left: 30vw;
+  top: 40vw;
+}
+.b5{
+  position: absolute;
+  height: 10vw;
+  left: 30vw;
+  top: 40vw;
+}
+.b6{
+  position: absolute;
+  height: 10vw;
+  left: 30vw;
+  top: 40vw;
+}
+.b7{
+  position: absolute;
+  height: 10vw;
+  left: 30vw;
+  top: 40vw;
+}
+.b8{
+  left: 10vw;
+  bottom: 20vw;
+}
+.b9{
+  position: absolute;
+  height: 30vw;
+  left: 30vw;
+  top: 40vw;
+}
+.w1{
+  height: 25vw;
+}
+.w2{
+  height: 25vw;
+}
+.w3{
+  height: 25vw;
+}
+.w4{
+  height: 55vw;
+}
+.w5{
+  height: 25vw;
+}
+.w6{
+  height: 25vw;
+}
+.w7{
+  height: 25vw;
+}
+.w8{
+  position: absolute;
+  height: 40vw;
+  left: 5vw;
+}
+.w9{
+  height: 55vw;
+}
+#p1{
+  top:4.1vw;
+  left: 4.9vw;
+  height: 50vw;
+}
+#p11{
+  top:5vw;
+  left: 3vw;
+  height: 50vw;
+}
+#p2{
+  top:20vw;
+   right: 20vw;
+    display: block;
+    height: 10vw;
+}
+#p21{
+  top:20vw;
+   right: 20vw;
+    display: block;
+      height: 10vw;
+}
+#p3{
+  top:20vw;
+   right: 20vw;
+    display: block;
+    height: 10vw;
+}
+#p31{
+  top:20vw;
+   right: 20vw;
+    display: block;
+      height: 10vw;
+}
