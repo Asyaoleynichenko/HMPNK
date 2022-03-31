@@ -4,9 +4,10 @@ body{
 }
 
 
-.head{
-  height: 5.4vw;
-  overflow-x: hidden;
+.head1{
+  position: absolute;
+  height: 4vw;
+  left: 1vw;
 }
 .image-container {
   position: absolute;
@@ -58,7 +59,7 @@ body{
 .b1{
   position: absolute;
   height: 33vw;
-  top:2vw;
+  top:5vw;
 
   left: 7vw;
 }
@@ -236,11 +237,8 @@ body{
 }
 #p31{
     display: none;
-  top:5vw;
+  top:3vw;
    right:1vw;
 
-      height: 30vw;
-}
-#canvas{
-  border: 2vw solid black;
+      height: 31vw;
 }
