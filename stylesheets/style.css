@@ -2,15 +2,8 @@
 @import "content.css";
 @import "responsive.css";
 @font-face {
-  font-family: 'HalvarMittel-Rg';
-  src: url('HalvarMittel-Bd.eot');
-  src: local('Halvar Mittelschrift Bold'), local('HalvarMittel-Bd'),
-      url('HalvarMittel-Bd.eot?#iefix') format('embedded-opentype'),
-      url('HalvarMittel-Bd.woff2') format('woff2'),
-      url('HalvarMittel-Bd.woff') format('woff'),
-      url('../fonts/HalvarMittel-Bd.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: "ProtoGroteskWeb";
+    src: url("../fonts/ProtoGroteskWeb-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
   }
-  
