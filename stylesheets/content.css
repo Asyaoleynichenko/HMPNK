@@ -255,3 +255,25 @@ body{
 
       height: 31vw;
 }
+h1{
+font-family:HalvarMittel-Rg;
+font-size:2vw ;
+position: absolute;
+color: white;
+}
+.txt1{
+top: 15.4vw;
+left: 6vw;
+}
+.txt2{
+top: 15.4vw;
+left: 18vw;
+}
+.txt3{
+top: 16vw;
+left: 11vw;
+}
+.txt4{
+top: 31.5vw;
+left: 11vw;
+}

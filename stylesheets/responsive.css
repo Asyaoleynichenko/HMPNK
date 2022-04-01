@@ -177,6 +177,22 @@
   height: 15vw!important;
     left: 8vw!important;
   }
+  .txt1{
+    top: 24vw;
+    left: 11vw;
+  }
+  .txt2{
+    top: 24vw;
+    left: 30vw;
+  }
+  .txt3{
+    top: 22vw;
+    left: 13vw;
+  }
+  .txt4{
+    top: 43vw;
+      left: 13vw;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
   .b1{
@@ -377,6 +393,22 @@
 
         height: 31vw;
   }
+  .txt1{
+    top: 24vw;
+    left: 11vw;
+  }
+  .txt2{
+    top: 24vw;
+    left: 30vw;
+  }
+  .txt3{
+    top: 22vw;
+    left: 13vw;
+  }
+  .txt4{
+    top: 43vw;
+      left: 13vw;
+  }
 
 }
 @media only screen and (min-device-width: 50px) and (max-device-width: 315px) and (orientation: portrait){
@@ -529,5 +561,21 @@
     top: 27vw !important;
   height: 15vw!important;
     left: 8vw!important;
+  }
+  .txt1{
+    top: 24vw;
+    left: 11vw;
+  }
+  .txt2{
+    top: 24vw;
+    left: 30vw;
+  }
+  .txt3{
+    top: 22vw;
+    left: 13vw;
+  }
+  .txt4{
+    top: 43vw;
+      left: 13vw;
   }
 }
