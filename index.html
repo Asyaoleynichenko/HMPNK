@@ -67,7 +67,7 @@ function s5() {
     let tone_do = new Audio("s5.mp3");
     tone_do.play();
 }
-    let my_music = new Audio("625.wav");
+    let my_music = new Audio("play1.wav");
     my_music.loop = true;
     my_music.onended = function(){
     my_music.play();
@@ -84,7 +84,7 @@ function s5() {
       }
       music_paused = !music_paused;
     }
-    let my_music2 = new Audio("do.wav");
+    let my_music2 = new Audio("drum.wav");
     my_music2.loop = true;
     my_music2.onended = function(){
     my_music2.play();
@@ -112,6 +112,22 @@ function s5() {
       }
       else{
           my_music3.pause();
+           t.style.transform = "rotate(0)";
+      }
+      music_paused = !music_paused;
+    }
+    let my_music4 = new Audio("pl3.wav");
+    my_music4.loop = true;
+    my_music4.onended = function(){
+    my_music4.play();
+    }
+    function play_music4(t){
+      if(music_paused){
+          my_music4.play();
+          t.style.transform = "rotate(45deg)";
+      }
+      else{
+          my_music4.pause();
            t.style.transform = "rotate(0)";
       }
       music_paused = !music_paused;
