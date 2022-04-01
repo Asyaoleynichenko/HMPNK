@@ -55,6 +55,18 @@
         let tone_do = new Audio("625.wav");
         tone_do.play();
 }
+function t5() {
+    let tone_do = new Audio("blue.mp3");
+    tone_do.play();
+}
+function s6() {
+    let tone_do = new Audio("s6.mp3");
+    tone_do.play();
+}
+function s5() {
+    let tone_do = new Audio("s5.mp3");
+    tone_do.play();
+}
     let my_music = new Audio("625.wav");
     my_music.loop = true;
     my_music.onended = function(){
@@ -148,14 +160,14 @@ document.getElementById("l6").style.display="none";
     <div id="cont">
       <div class="b4 image-container" id="w4">
         <img class="w4"src="images/Group 241.svg">
-        <img src="images/Group 223.svg" id="p1">
+        <img src="images/Group 223.svg" id="p1"onclick="t5()">
         <img src="images/Group 22.svg" id="p11" >
       </div>
     <div class="b1 image-container" id="w1">
       <img class="w1"src="images/Group 238.svg">
 
-      <img src="images/Line 37.svg" id="l6"style="top:3.819vw; left: 4.861vw; height:70%;"onclick="waves_out6()">
-      <img src="images/Line 37.svg" id="l5"style="top:3.819vw; left: 7.639vw; height:70%;"onclick="waves_out5()">
+      <img src="images/Line 37.svg" id="l6"style="top:3.819vw; left: 4.861vw; height:70%;"onclick="waves_out6()"onclick="s6()">
+      <img src="images/Line 37.svg" id="l5"style="top:3.819vw; left: 7.639vw; height:70%;"onclick="waves_out5()"onclick="s5()">
       <img src="images/Line 36.svg" id="l4"style="top:3.819vw; left: 10.417vw; height:70%;"onclick="waves_out4()">
       <img src="images/Line 35.svg" id="l3"style="top:3.819vw; left: 13.194vw; height:70%;"onclick="waves_out3()">
       <img src="images/Line 34.svg" id="l2"style="top:3.819vw; left: 15.972vw; height:70%;"onclick="waves_out2()">
