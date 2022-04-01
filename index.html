@@ -100,6 +100,22 @@ function s5() {
       }
       music_paused = !music_paused;
     }
+    let my_music3 = new Audio("pl3.wav");
+    my_music3.loop = true;
+    my_music3.onended = function(){
+    my_music3.play();
+    }
+    function play_music3(t){
+      if(music_paused){
+          my_music3.play();
+          t.style.transform = "rotate(45deg)";
+      }
+      else{
+          my_music3.pause();
+           t.style.transform = "rotate(0)";
+      }
+      music_paused = !music_paused;
+    }
 
 
     function waves() {
@@ -210,7 +226,7 @@ document.getElementById("l6").style.display="none";
       <div class="drawing-board">
     <div class="b6 image-container" id="w6">
       <img class="w6" src="images/Group 233.svg">
-        <img class="play3"src="images/Group 247.svg" onclick="play_music(this)">
+        <img class="play3"src="images/Group 247.svg" onclick="play_music3(this)">
           <img class="play4"src="images/Group 247.svg" onclick="play_music(this)">
     </div>
     </div>
