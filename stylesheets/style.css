@@ -16,4 +16,5 @@
   h1{
   font-family:HalvarMittel-Rg;
   font-size:2vw ;
+  z-index: 3;
 }
