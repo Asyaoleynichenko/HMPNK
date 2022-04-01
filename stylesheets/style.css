@@ -3,7 +3,5 @@
 @import "responsive.css";
 @font-face {
     font-family: "ProtoGroteskWeb";
-    src: url("../fonts/ProtoGroteskWeb-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    src: url("/fonts/ProtoGroteskWeb-Regular.ttf") format("truetype");
   }
