@@ -59,12 +59,15 @@
     top: 9.5vw;
   }
   .b5{
-    top: 50vw;
+  top: 50vw;
       height: 20vw;
 
   }
   .w5{
     height: 20vw;
+    left: 2vw;
+
+
   }
   .b6{
     top: 120vw;
@@ -273,11 +276,11 @@
     top: 9.5vw;
   }
   .b5{
-    top: 90vw;
+    top: 40vw;
 
   }
   .w5{
-    height: 60vw;
+    height: 70vw;
   }
   .b6{
     top: 120vw;
