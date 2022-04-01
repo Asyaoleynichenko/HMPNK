@@ -180,28 +180,135 @@
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
   .b1{
+    position: absolute;
+    height: 33vw;
+    top:5vw;
 
-    height: 40vw;
-    top:10vw;
-    left: 4vw;
-  }
-  .w1{
-
-    height: 40vw;
-    top:10vw;
-    left: 4vw;
+    left: 7vw;
   }
   .b2{
+    position: absolute;
+    height: 17vw;
+    left: 30vw;
+    top: 7vw;
+  }
+  .b3{
+    position: absolute;
+    height: 38vw;
+    left: 68vw;
+    top: 9vw;
+  }
+  .b4{
+    position: absolute;
+    height: 52vw;
+    left: 30vw;
+    top: 33vw;
+  }
+  .b5{
+    position: absolute;
+    height: 40vw;
+    left: 6vw;
+    top: 35vw;
+  }
+  .b6{
+    position: absolute;
+    height: 45vw;
+    right: 30vw;
+    top: 46vw;
+  }
+  .b7{
+    position: absolute;
+    height: 20vw;
+    right: 40vw;
+    top: 70vw;
+  }
 
+  .b8{
+    height: 10vw;
+    left: 4vw;
+    top: 60vw;
+  }
+  .w1{
     height: 30vw;
-    top:8vw;
-  left:50vw;
   }
   .w2{
+    height: 20vw;
+  }
+  .play1{
+    position: absolute;
+    top: 5vw !important;
+    height: 10vw;
+    left: 3vw!important;
+  }
+  .play2{
+    position: absolute;
+    top: 5vw !important;
+    height: 10vw!important;
+    left: 15vw!important;
+  }
+  .play3{
+    position: absolute;
+    top: 5vw !important;
+    height: 10vw;
+    left: 8vw!important;
+  }
+  .play4{
+    position: absolute;
+    top: 21vw !important;
+    height: 10vw!important;
+    left: 8vw!important;
+  }
+  .w3{
+    position: absolute;
+    height: 38vw;
+    left: 68vw;
+    top: 9vw;
+  }
+  .w4{
+    height: 55vw;
+  }
+  .w5{
+    width: 44.3vw;
+    height: 25vw;
+  }
+  .w6{
+    height: 36vw;
+      right: 30vw;
+  }
+  .w7{
+    position: absolute;
+    height: 35vw;
+    top: 86vw;
+  }
+  .w8{
+    position: relative;
+    height: 50vw;
+    left:3vw;
+  }
+  .d1{
+    position: absolute;
+    top: 5vw !important;
+    height: 40vw;
 
-    height: 30vw;
-    top:8vw;
-    left:70vw;
+    animation: d1 15s linear 0s infinite normal forwards;
+  }
+  @keyframes d1 {
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .w9{
+    position: absolute;
+    height: 23vw;
+    right: 25vw;
+    top: 70vw;
+
+
   }
   .move-area{
     width: 30vw;
@@ -211,124 +318,66 @@
   .container {
     width: 100%;
   }
-  .b3{
+  .eye {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+    background: #EEEEEE;
+    left: 45vw;
+    top: 77vw;
 
-    top: 160vw;
-    left: 10vw;
-  }
-  #p2{
-    height: 45vw;
-    top: 4.5vw;
-  }
-  #p21{
-    height: 45vw;
-    top: 4.5vw;
-  }
-  .w3{
-    height: 50vw;
-  }
-  .w4{
-    height:100vw;
-    left: 50vw;
 
   }
-  .b4{
-    left: 20vw;
+  .eye:after {
+    position: absolute;
+    bottom: 2vw;
+    right: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background: #000;
+    border-radius: 50%;
+    content: " ";
   }
   #p1{
-    height: 90vw;
-    left: 8.5vw;
-    top: 9vw;
+    top:4.1vw;
+    left: 4.9vw;
+    height: 50vw;
   }
   #p11{
-    height: 90vw;
-    left: 5vw;
-    top: 9.5vw;
+    display: none;
+    top:5vw;
+    left: 3vw;
+    height: 50vw;
+  }
+  #p2{
+    top:2.5vw;
+     left: 2vw;
+      display: block;
+      height: 35vw;
+  }
+  #p21{
+      display: none;
+    top:2.5vw;
+     left: 2vw;
+
+        height: 35vw;
   }
   #p3{
-    height: 32vw;
-    right:1vw;
-    top: 7vw;
+    top:5.5vw;
+     right: 20vw;
+      display: block;
+      height: 27.6vw;
   }
   #p31{
-    height: 35vw;
-    right:1vw;
-    top: 3vw;
-  }
-  .b5{
-  top: 60vw;
-      height: 20vw;
+      display: none;
+    top:3vw;
+     right:1vw;
 
+        height: 31vw;
   }
-  .w5{
-    height: 20vw;
-    left: 2vw;
 
-
-  }
-  .b6{
-    top: 120vw;
-    height: 50vw;
-    left: 60vw;
-  }
-  .w6{
-    height: 50vw;
-    left: 50vw;
-  }
-  .b8{
-      height: 20vw;
-    top: 170vw;
-    left: 50vw;
-  }
-  .w8{
-    height: 50vw;
-  }
-  .d1{
-    top: 10vw;
-  }
-  .b9{
-    height: 10vw;
-    top: 55vw;
-
-  }
-  .w9{
-    left: 3vw;
-    height: 30vw;
-  }
-  .eye{
-    left: 15vw;
-  }
-  .b7{
-    left: 10vw;
-    top: 90vw;
-  }
-  .w7{
-    height: 40vw;
-  }
-  .play1{
-    position: absolute;
-    top: 8vw !important;
-    height: 15vw;
-    left: 5vw!important;
-  }
-  .play2{
-    position: absolute;
-    top: 8vw !important;
-    height: 15vw!important;
-      left: 25vw!important;
-  }
-  .play3{
-    position: absolute;
-    top: 5vw !important;
-  height: 15vw!important;
-    left: 8vw!important;
-  }
-  .play4{
-    position: absolute;
-    top: 27vw !important;
-  height: 15vw!important;
-    left: 8vw!important;
-  }
 }
 @media only screen and (min-device-width: 50px) and (max-device-width: 315px) and (orientation: portrait){
   .b1{
