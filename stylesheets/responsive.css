@@ -66,6 +66,16 @@
     left: 5vw;
     top: 9.5vw;
   }
+  #p3{
+    height: 32vw;
+    right:1vw;
+    top: 7vw;
+  }
+  #p31{
+    height: 35vw;
+    right:1vw;
+    top: 3vw;
+  }
   .b5{
   top: 50vw;
       height: 20vw;
@@ -111,7 +121,7 @@
   }
   .b7{
     left: 15vw;
-    top: 120vw;
+    top: 100vw;
   }
   .w7{
     height: 40vw;
