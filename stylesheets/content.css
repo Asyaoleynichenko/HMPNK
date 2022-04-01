@@ -123,6 +123,18 @@ body{
   height: 10vw!important;
   left: 15vw!important;
 }
+.play3{
+  position: absolute;
+  top: 5vw !important;
+  height: 10vw;
+  left: 8vw!important;
+}
+.play4{
+  position: absolute;
+  top: 21vw !important;
+  height: 10vw!important;
+  left: 8vw!important;
+}
 .w3{
   position: absolute;
   height: 38vw;

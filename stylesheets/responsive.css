@@ -3,14 +3,14 @@
   .b1{
 
     height: 40vw;
-    top:6vw;
-    left: 3vw;
+    top:10vw;
+    left: 4vw;
   }
   .w1{
 
     height: 40vw;
-    top:6vw;
-    left: 3vw;
+    top:10vw;
+    left: 4vw;
   }
   .b2{
 
@@ -23,6 +23,14 @@
     height: 30vw;
     top:8vw;
     left:70vw;
+  }
+  .move-area{
+    width: 30vw;
+    height: 2vh;
+
+  }
+  .container {
+    width: 100%;
   }
   .b3{
 
@@ -108,6 +116,30 @@
   .w7{
     height: 40vw;
   }
+  .play1{
+    position: absolute;
+    top: 8vw !important;
+    height: 15vw;
+    left: 5vw!important;
+  }
+  .play2{
+    position: absolute;
+    top: 8vw !important;
+    height: 15vw!important;
+      left: 25vw!important;
+  }
+  .play3{
+    position: absolute;
+    top: 5vw !important;
+  height: 15vw!important;
+    left: 8vw!important;
+  }
+  .play4{
+    position: absolute;
+    top: 27vw !important;
+  height: 15vw!important;
+    left: 8vw!important;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
   .b1{
@@ -138,6 +170,30 @@
 
     top: 179vw;
     left: 10vw;
+  }
+  .play1{
+    position: absolute;
+    top: 8vw !important;
+    height: 15vw;
+    left: 5vw!important;
+  }
+  .play2{
+    position: absolute;
+    top: 8vw !important;
+    height: 15vw!important;
+      left: 25vw!important;
+  }
+  .play3{
+    position: absolute;
+    top: 5vw !important;
+  height: 15vw!important;
+    left: 8vw!important;
+  }
+  .play4{
+    position: absolute;
+    top: 27vw !important;
+  height: 15vw!important;
+    left: 8vw!important;
   }
   #p2{
     height: 45vw;
@@ -222,6 +278,30 @@
     height: 40vw;
     top:4vw;
     left: 3vw;
+  }
+  .play1{
+    position: absolute;
+    top: 8vw !important;
+    height: 15vw;
+    left: 5vw!important;
+  }
+  .play2{
+    position: absolute;
+    top: 8vw !important;
+    height: 15vw!important;
+      left: 25vw!important;
+  }
+  .play3{
+    position: absolute;
+    top: 5vw !important;
+  height: 15vw!important;
+    left: 8vw!important;
+  }
+  .play4{
+    position: absolute;
+    top: 27vw !important;
+  height: 15vw!important;
+    left: 8vw!important;
   }
   .w1{
 
